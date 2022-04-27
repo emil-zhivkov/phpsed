@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+define('SED_START', microtime(true));
+
+require __DIR__.'/vendor/autoload.php';
+
+$search = (string)readline('Enter search string: ');
+
+
+$replace = (string)readline('Replace with: ');
+
+
+$file = (string)readline('Enter filename with full path: ');
+
+
+$phpsed = new Emo\Sed\Sed();
+
+$phpsed->substitude($search, $replace, $file);
+
+exit('done for: ');

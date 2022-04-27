@@ -1,0 +1,18 @@
+{
+    "name": "emo/sed",
+    "autoload": {
+        "psr-4": {
+            "Emo\\Sed\\": "src/",
+            "Emo\\Sed\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emil Zhivkov",
+            "email": "emil.zhivkov@webcode.bg"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
