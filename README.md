@@ -14,3 +14,9 @@ enter:
 1. search string 
 2. replace string 
 3. full path to file
+
+##Test
+
+```
+./vendor/bin/phpunit --verbose tests
+```
